@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: underline;
+  /* margin-bottom: 64px; */
+  margin: 20px 0;
+  font-size: 50px;
+  color: #1a8edb;
+}
+
+h2 {
+  margin: 15px 0 26px;
+  color: #1eb357;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: underline;
+  /* margin-bottom: 64px; */
+  font-size: 38px;
+
+}
+
+
+.container {
+  width: 300px;
+  /* border-radius: 6px; */
+  box-shadow: 0 8px 50px -7px black;
+  margin: auto;
+  min-height: 400px;
+  background-color: #3a4655;
+}
+
+#input {
+  height: 90px;
+  font-size: 42px;
+  width: 100%;
+  text-align: right;
+  color: white;
+  outline: none;
+  border: none;
+  background-color: #425062;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: 500px;
+  /* height: 60px; */
+  /* margin-bottom: 4px; */
+}
+
+.row button {
+  width: 25%;
+  height: 70px;
+  border: none;
+  border-color: #3c4857;
+  background-color: #425062;
+  color: white;
+  font-size: 22px;
+  border-width: 1px 1px 0 0;
+  border-style: solid;
+  cursor: pointer;
+}
+
+button.btn {
+  color: #ffbc56;
+}
+
+.row button:nth-child(4n) {
+  border-right: 0;
+}
+
+button:hover {
+  background-color: #e8e6e6;
+  color: black;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
